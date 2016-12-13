@@ -14,6 +14,9 @@
 		990DA2F51DEC6C4E00936449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990DA2F31DEC6C4E00936449 /* LaunchScreen.storyboard */; };
 		990DA3001DEC6C4E00936449 /* PhotoShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA2FF1DEC6C4E00936449 /* PhotoShareTests.swift */; };
 		990DA30B1DEC6C4E00936449 /* PhotoShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA30A1DEC6C4E00936449 /* PhotoShareUITests.swift */; };
+		990DA3191DEC6E5C00936449 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA3181DEC6E5C00936449 /* LoginTableViewController.swift */; };
+		9923135C1E002B6F007BC32D /* PhotoShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9923135B1E002B6F007BC32D /* PhotoShare.swift */; };
+		9944348C1DEDF0E1006D4C19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9944348B1DEDF0E1006D4C19 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		990DA3061DEC6C4E00936449 /* PhotoShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990DA30A1DEC6C4E00936449 /* PhotoShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShareUITests.swift; sourceTree = "<group>"; };
 		990DA30C1DEC6C4E00936449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990DA3181DEC6E5C00936449 /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		9923135B1E002B6F007BC32D /* PhotoShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoShare.swift; sourceTree = "<group>"; };
+		9944348B1DEDF0E1006D4C19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		990DA2E91DEC6C4E00936449 /* PhotoShare */ = {
 			isa = PBXGroup;
 			children = (
+				9923135B1E002B6F007BC32D /* PhotoShare.swift */,
 				990DA2EA1DEC6C4E00936449 /* AppDelegate.swift */,
 				990DA2EC1DEC6C4E00936449 /* ViewController.swift */,
 				990DA2EE1DEC6C4E00936449 /* Main.storyboard */,
+				9944348B1DEDF0E1006D4C19 /* Constants.swift */,
+				990DA3181DEC6E5C00936449 /* LoginTableViewController.swift */,
 				990DA2F11DEC6C4E00936449 /* Assets.xcassets */,
 				990DA2F31DEC6C4E00936449 /* LaunchScreen.storyboard */,
 				990DA2F61DEC6C4E00936449 /* Info.plist */,
@@ -264,6 +273,9 @@
 			files = (
 				990DA2ED1DEC6C4E00936449 /* ViewController.swift in Sources */,
 				990DA2EB1DEC6C4E00936449 /* AppDelegate.swift in Sources */,
+				990DA3191DEC6E5C00936449 /* LoginTableViewController.swift in Sources */,
+				9923135C1E002B6F007BC32D /* PhotoShare.swift in Sources */,
+				9944348C1DEDF0E1006D4C19 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				990DA3111DEC6C4E00936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		990DA3121DEC6C4E00936449 /* Build configuration list for PBXNativeTarget "PhotoShareTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				990DA3141DEC6C4E00936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		990DA3151DEC6C4E00936449 /* Build configuration list for PBXNativeTarget "PhotoShareUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				990DA3171DEC6C4E00936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
